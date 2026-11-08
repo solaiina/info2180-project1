@@ -6,7 +6,7 @@ body {
 }
 
 .container{
-    margin: 0 auto;
+    margin: auto;
     max-width: 960px;
     width: 100%;
 
@@ -50,4 +50,80 @@ header a{
 
 header a:hover{
     color:#5A67D8;
+}
+
+.overview-hero{
+    background-color:#E2E8F0;
+    padding:50px;
+}
+
+.overview-hero .container{
+    display:flex;
+    align-items: center;
+    gap:30px;
+
+}
+
+.overview-hero-image img{
+   width: 250px;
+   max-width: 100%; 
+}
+
+.cards{
+    display:grid;
+    gap:50px;
+    grid-template-columns:repeat(3, 1fr); 
+
+}
+
+.card{
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    border: 1px solid #E2E8F0;
+
+}
+
+.card-body{
+    padding: 20px;
+}
+.card-body h3{
+    color:#48BB78;
+    font-size: 21px;
+}
+.card img{
+    max-width: 100%;
+    width: 250px;
+    height: 200px;
+    
+}
+
+.learn-about h2{
+    font-size:24px;
+    color:#48BB78;
+}
+
+.testing{
+    background-color:#4A5568 ;
+    padding: 50px;
+}
+.testing .container{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:30px;
+    color:white;
+
+}
+
+.cta a{
+    background-color:#48BB78 ;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    display:inline-block;
+    text-transform: uppercase;
+    padding: 12px 35px;
+
 }
