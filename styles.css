@@ -73,7 +73,7 @@ header a:hover{
     display:grid;
     gap:50px;
     grid-template-columns:repeat(3, 1fr); 
-
+    margin-bottom: 20px;
 }
 
 .card{
@@ -126,4 +126,49 @@ header a:hover{
     text-transform: uppercase;
     padding: 12px 35px;
 
+}
+
+article{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    gap:30px;
+    margin-bottom: 10px;
+
+}
+
+article img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.stories h2{
+    color:#5A67D8;
+}
+
+.stories a{
+    color:#5A67D8;
+}
+
+.article-body h3{
+    font-size: 18px;
+}
+
+.stories{
+    padding:40px 0 ;
+}
+
+.article-body{
+    margin: 10px;
+}
+
+form{
+    display:flex;
+}
+
+.newsletter .container{
+    align-items:center;
 }
